@@ -1,0 +1,82 @@
+html,body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background:url(bg.jpg) center center;
+	background-color: #000;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+
+	scrollbar-base-color : #dce3ef; 
+	scrollbar-face-color : #dce3ef; 
+	scrollbar-track-color: #7c98ca; 
+	scrollbar-arrow-color : #8888ff;
+	scrollbar-3dlight-color: #8888ff;
+	scrollbar-darkshadow-color : #8888ff;
+	scrollbar-highlight-color : #dce3ef;
+	scrollbar-shadow-color : #dce3ef;
+	}
+a	{color: #ffffff;}
+
+#head {
+	width: 100%;
+	height: 188px;
+	background-color: #ffffff;
+	text-align: center;
+	}
+
+#menu {
+	list-style-type: none;
+	padding: 7px 0;
+	background-color: #060613;
+	font-size: 12px;
+	text-align: center;
+	}
+#menu li {
+	display: inline-block;
+	margin: 0 20px;
+	}
+
+#manual {
+	width: 800px;
+	margin: 15px auto 100px;
+	color: #ffffff;
+	font-size: 12px;
+	}
+
+#manual h1 {
+	margin: 36px 0 8px;
+	font-size: 18px;
+	}
+#manual h2 {
+	margin: 24px 0 4px;
+	font-size: 14px;
+	}
+#manual p {
+	margin-bottom: 12px;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	}
+#manual p.sup {margin-left: 14px;}
+#manual p.rig {text-align: right;}
+
+#manual .img {
+	display: block;
+	margin: 20px auto 70px;
+	}
+
+#manual dl {margin: 14px 0 0 14px;}
+#manual dt {
+	float: left;
+	clear: left;
+	height: 24px;
+	}
+#manual dl.scaling dt {width: 100px;}
+#manual dl.title dt {width: 50px;}
+#manual dl.mouse dt {width: 125px;}
+#manual dl.key dt {width: 55px;}
+#manual dl.sys_menu dt {width: 140px;}
+#manual dl.option dt {width: 160px;}
+#manual dd {height: 24px;}
+
